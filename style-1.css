@@ -1,0 +1,134 @@
+<<style>
+/* General styles */
+body {
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+a {
+  text-decoration: none;
+  color: #004080;
+}
+/* Header styles */
+header {
+  background-color: #004080;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+header nav a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 18px;
+}
+/* Banner styles */
+.banner {
+  background-image: url('images/champions-league-227703.jpeg'); 
+  background-size: contain;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+
+}
+.banner h1 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.banner p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.btn-gray {
+  background-color: #ccc;
+  color: #000;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+.btn-gray:hover {
+  background-color: #999;
+}
+/* Card styles */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 20px;
+}
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card h5 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #004080;
+}
+.card p {
+  font-size: 16px;
+  color: #666;
+}
+/* Section styles */
+.section {
+  text-align: center;
+  color: #fff;
+  padding: 40px 20px;
+}
+#about, #features, #contact {
+  background-color: #004080;
+  
+}
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.section p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+/* Key Features styles */
+.key-features {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 30px;
+}
+.key-features li {
+  font-size: 20px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+  line-height: 1.5;
+}
+.key-features li:before {
+  content: "\2022";
+  position: absolute;
+  left: -10px;;
+}
+/* Footer styles */
+.footer {
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+</style>
